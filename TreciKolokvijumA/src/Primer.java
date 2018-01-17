@@ -14,7 +14,7 @@ public class Primer {
 	public int findLast(int[] x, int y) {
 		for (int i = x.length - 1; i > 0; i--) {
 			if (x[i] == y) {
-				return y;
+				return i;
 			}
 		}
 		return -1;
